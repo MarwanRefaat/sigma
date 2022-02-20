@@ -1,0 +1,94 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7d89a3ec-ce3f-45cf-a831-fcff56a0e94c": {
+        "id": "7d89a3ec-ce3f-45cf-a831-fcff56a0e94c",
+        "parent": null,
+        "name": "gamefi.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gamefi.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 2
+        },
+        "config": {
+          "runtime": "nodejs14",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gamefi"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1645350944485
+      },
+      "e4576948-5fb3-451e-84a4-3c770e8f380a": {
+        "id": "e4576948-5fb3-451e-84a4-3c770e8f380a",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "589727c0-d538-4ecf-88f9-75705423a577": {
+        "id": "589727c0-d538-4ecf-88f9-75705423a577",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "7d89a3ec-ce3f-45cf-a831-fcff56a0e94c"
+    ],
+    "currentFileId": "7d89a3ec-ce3f-45cf-a831-fcff56a0e94c",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.5",
+    "projectName": "gamefi",
+    "projectDescription": "Sigma Serverless Cloud Functions",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-central1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1645351093547
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sigma",
+      "url": "https://github.com/MarwanRefaat/sigma"
+    }
+  }
+}
