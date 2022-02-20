@@ -48,13 +48,45 @@
         "isDirectory": false,
         "children": [],
         "isRemovable": false,
-        "filePath": "main.py"
+        "filePath": "main.py",
+        "lastUpdated": 1645351183585
+      },
+      "59284841-b8a7-4222-901e-e2e5ce257883": {
+        "id": "59284841-b8a7-4222-901e-e2e5ce257883",
+        "parent": null,
+        "name": "python-sandbox-function.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "python-sandbox-function.py",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 22
+        },
+        "config": {
+          "runtime": "python37",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 512,
+          "triggerType": 0,
+          "name": "python_sandbox_function"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1645351312654
       }
     },
     "openFiles": [
-      "7d89a3ec-ce3f-45cf-a831-fcff56a0e94c"
+      "7d89a3ec-ce3f-45cf-a831-fcff56a0e94c",
+      "589727c0-d538-4ecf-88f9-75705423a577",
+      "59284841-b8a7-4222-901e-e2e5ce257883"
     ],
-    "currentFileId": "7d89a3ec-ce3f-45cf-a831-fcff56a0e94c",
+    "currentFileId": "59284841-b8a7-4222-901e-e2e5ce257883",
     "resources": {
       "http-trigger": {
         "name": "http-trigger",
